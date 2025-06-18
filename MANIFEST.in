@@ -1,0 +1,2 @@
+include md2html/version.json
+recursive-include md2html/template/*

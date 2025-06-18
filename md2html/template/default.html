@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or 'Document' }}</title>
+<style>
+    {{ styles_css }}
+    {{ pygments_css }}
+</style>
+</head>
+<body>
+{{ body }}
+</body>
+<script src="{{ mathjax_js }}"></script>
+<script src="{{ mermaid_js }}"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
+</html>

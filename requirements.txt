@@ -1,0 +1,5 @@
+click
+markdown
+pymdown-extensions
+pygments
+jinja2

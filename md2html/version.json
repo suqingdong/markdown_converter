@@ -1,0 +1,8 @@
+{
+    "prog": "markdown_to_docx",
+    "desc": "A simple tool for converting Markdown to Docx files.",
+    "url": "https://github.com/suqingdong/markdown_to_docx",
+    "author": "suqingdong",
+    "author_email": "suqingdong1114@gmail.com",
+    "version": "1.0.0"
+}
