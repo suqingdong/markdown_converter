@@ -1,4 +1,4 @@
-# A user-friendly tool to convert markdown to html
+# A user-friendly tool for converting Markdown to HTML
 
 ## Installation
 
