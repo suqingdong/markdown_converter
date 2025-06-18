@@ -1,5 +1,6 @@
 {
-    "prog": "markdown_to_docx",
+    "name": "md2html-python",
+    "prog": "md2html",
     "desc": "A simple tool for converting Markdown to Docx files.",
     "url": "https://github.com/suqingdong/markdown_to_docx",
     "author": "suqingdong",

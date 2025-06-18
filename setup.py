@@ -4,10 +4,10 @@ from setuptools import setup, find_packages
 
 
 BASE_DIR = Path(__file__).resolve().parent
-version_info = json.load(BASE_DIR.joinpath('drf_slider_captcha', 'version.json').open())
+version_info = json.load(BASE_DIR.joinpath('md2html', 'version.json').open())
 
 setup(
-    name=version_info['prog'],
+    name=version_info['name'],
     version=version_info['version'],
     author=version_info['author'],
     author_email=version_info['author_email'],

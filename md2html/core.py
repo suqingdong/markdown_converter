@@ -52,7 +52,6 @@ class MD2HTML(object):
         ])
         return md
     
-
     def convert(
             self,
             output=None,
@@ -77,9 +76,9 @@ class MD2HTML(object):
         if output:
             Path(output).write_text(html, encoding='utf-8')
         else:
-            print(html)
+            return html
 
 
 if __name__ == '__main__':
     md2html = MD2HTML('tests/demo.md')
-    md2html.convert('output.html')
+    md2html.convert('tests/demo.html')

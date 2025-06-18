@@ -1,2 +1,3 @@
+include requirements.txt
 include md2html/version.json
-recursive-include md2html/template/*
+recursive-include md2html/template/ *
