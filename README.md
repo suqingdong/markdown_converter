@@ -1,3 +1,6 @@
+![PyPI - Version](https://img.shields.io/pypi/v/md2html-python)
+![PyPI - Status](https://img.shields.io/pypi/status/md2html-python)
+
 # A user-friendly tool for converting Markdown to HTML
 
 ## Installation
@@ -65,6 +68,14 @@ pygmentize -S default -f html -a .highlight > pygments.css
 
 ---
 
+## Demo
+
+- INPUT: [demo.md](https://suqingdong.github.io/md2html/tests/demo.md)
+- OUTPUT: [demo.html](https://suqingdong.github.io/md2html/tests/demo.html)
+
+---
+
 ### Thanks
-- [markdown](https://github.com/Python-Markdown/markdown)
-- [pymdown-extensions](https://github.com/facelessuser/pymdown-extensions)
+
+> - [markdown](https://github.com/Python-Markdown/markdown)
+> - [pymdown-extensions](https://github.com/facelessuser/pymdown-extensions)

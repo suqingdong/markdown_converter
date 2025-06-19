@@ -19,6 +19,10 @@ setup(
     install_requires=BASE_DIR.joinpath('requirements.txt').read_text().strip().split(),
     packages=find_packages(),
     include_package_data=True,
+    entry_points={'console_scripts': [
+        'md2html = md2html.bin:main',
+    ]},
+
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Operating System :: OS Independent',
