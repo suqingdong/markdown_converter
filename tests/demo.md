@@ -90,10 +90,6 @@ Some content
 
 :smile: :heart: :thumbsup:
 
-```bash
-echo "Hello, world!"
-```
-
 #### Tabbed
 
 /// tab | Tab A title  
